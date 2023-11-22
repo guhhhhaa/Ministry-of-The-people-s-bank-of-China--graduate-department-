@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资料下载-考研帮</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+        /*CSS reset*/
+        html,body,div,span,h1,img,i,p{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline}
+        html,body,p,div,h1{-webkit-text-size-adjust:none; font-family:inherit;}
+        html{font-size:20px;}
+        body{font-family:Microsoft YaHei, "Droid Sans", "Droid Sans Fallback", "Heiti SC", Helvetica, sans-self;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
+        i{vertical-align:middle;font-style: normal;}
+        @media (min-width:321px) and (max-width:414px) {
+            html{font-size:23.4375px;}
+        }
+        @media (min-width:415px) {
+            html{font-size:25.875px;}
+        }
+        .main{height: 14rem;position: absolute;top: 50%;margin-top: -7rem;left: 0;width: 100%;text-align: center;}
+        .logo{width: 5.15rem;height: 1.5rem;background: url(http://img.kybimg.com/images/m/3g/logo_kyb.png) no-repeat;background-size: 100% auto;text-indent: -200em;margin:0 auto;padding-bottom: 2.5rem;}
+        .down_ok,.down_no{font-size: .7rem;padding-top: .5rem;}
+        .down_no{color: #888;}
+        .down_ok:before{content: '';display: inline-block;width: .8rem;height: .8rem;background:url(http://img.kybimg.com/images/m/bang/down_green.png) no-repeat;background-size: 100% auto;vertical-align: middle;margin-right: .3rem;}
+    </style>
+</head>
+<body>
+     <div class="wrap">
+         <div class="main">
+             <h1 class="logo">考研帮</h1>
+             <!-- ok -->
+             <!-- <img src="http://img.kybimg.com/images/m/bang/down_ok.png" alt="" width="68%">
+             <div class="down_ok">下载成功</div> -->
+             <!-- no -->
+             <img src="http://img.kybimg.com/images/m/bang/down_no.png" alt="" width="36%">
+             <div class="down_no">
+                <span>出错了...</span>
+             </div>
+         </div>
+     </div>
+
+</body>
+</html>
